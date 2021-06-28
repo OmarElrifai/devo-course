@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Math Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >
+    <link rel="stylesheet" href="Math-Game-style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    </head>
+
+    
+    
+    
+<body>
+   <div id="back" class="row">
+    <div id="container" class="col-lg-5 col-md-9 " >
+        
+        <div class="row">
+            <div id="correct" class=" offset-lg-5 col-lg-2 offset-5 col-2">
+            Correct
+        </div>
+        
+         <div id="tryagain" class=" offset-lg-5 col-lg-2 offset-5 col-2">
+            Wrong
+        </div>   
+            
+        <div id="scorebox" class="col-lg-2 offset-lg-3 col-2 offset-3">
+        score:<span id="score">0</span>
+        </div>    
+        
+        
+        
+        
+        
+        </div>
+        
+        <div class="row">
+            
+            <div class="row">
+</div>
+        <div id="question">
+            
+        </div>
+        
+        
+        <div id="instructions">
+        Choose from the following answers:
+        </div>
+        
+        
+        
+        <div id="choices">
+        
+        <div id="box1" class="box"></div>    
+        <div id="box2" class="box"></div>    
+        <div id="box3" class="box"></div>    
+        <div id="box4" class="box"></div>    
+        
+        </div>
+        </div>
+        
+        <div class="row">
+        <div id="startreset" class="col-lg-3 col-3">
+                Start Game
+        </div>
+        </div>   
+            
+        <div id="timeremaining">
+                Time remaining:<span id="timer">60</span>sec
+        </div>
+            
+        
+        <div class="row">
+        <div id="gameover" class="col-12">
+            
+            <p style="margin-top: 20px;">GAME OVER</p>
+           <p> Your score is <span id="scores">0</span> </p>  
+        </div>
+        </div>  
+        
+        
+        <script src="Math-Game-javascript.js"></script>
+        
+    </div>  
+        
+      </div> 
+    </body>    
+
+</html>

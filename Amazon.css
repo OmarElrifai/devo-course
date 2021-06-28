@@ -1,0 +1,134 @@
+
+h1 {
+    font-family:sans-serif ;
+    font-weight:100;
+    font-size:170%;
+}
+
+p1 {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#container2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size:140%;
+}
+
+#info {
+    margin-top:30px ;
+    padding-top: 4px;
+    border-top: 1px solid #e4dcdc;
+    display: flex;
+    flex-direction: column;
+    /*width: 500px;*/
+    flex: 0 1 500px;
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 100%;
+    margin-top: 20px;
+}
+
+p2 {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+p3 {
+    font-family:sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    line-height: 1.5;
+}
+
+p3 {
+    
+}
+
+#t1 {
+    font-size:13px;
+    font-family: sans-serif;
+    padding: 7px;
+    margin-bottom: 14px;
+    margin-top:2px;
+}
+
+
+
+p4 {
+    padding-top: 18px;
+    border-top: 1px solid #e8e2e2;
+    margin-top: 18px;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.5
+}
+#info ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px
+}
+
+#info ul li {
+    float: left;
+    list-style: none;
+    line-height: 0.8;
+}
+
+#info ul{padding-left: 0;}
+#info ul li:last-child{
+padding-left: 10px;
+border-left: solid 1px ;
+} 
+#info ul li:first-child{padding-right: 10px;}
+
+
+
+#container1 {
+    margin:10px 100px;
+}
+
+#footer{ text-align: center ;
+         margin-top: 70px;
+         padding-top: 10px ;
+         padding-bottom: 1px;    
+         background: linear-gradient(#F7F7F7 , #F9F9F9 10%,#FCFCFC 90%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#terms a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+border-left: solid 1px ;
+     list-style: none;
+height: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: ;
+}
+
+
+
+
+
+p{font-family:sans-serif;
+  font-size:13px;  
+}

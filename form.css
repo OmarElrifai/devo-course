@@ -1,0 +1,35 @@
+form {
+    display: grid;
+    grid-template-columns: [label] 150px [input] 300px;
+    
+}
+
+#fullfullname{
+    background-color: aqua;
+}
+
+
+form > label{
+    grid-column: label;
+}
+
+form > input{
+    grid-column:input;
+}
+
+h2{
+    grid-area: 1/1/2/3;
+}
+
+h3{ grid-area: 11/3/12/1}
+
+
+
+/*#container2 form >input[id="Full name"] {
+    
+    color: aqua;
+}*/
+p2 {
+    grid-area: 10/1/11/3;
+        
+}

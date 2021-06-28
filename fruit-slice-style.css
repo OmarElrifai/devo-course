@@ -1,0 +1,229 @@
+#container1{
+    background-color:aqua;
+    height: 640px;
+    width: 100%;
+}
+#container {
+    height: 600px;
+    margin-top:10px ;
+    background-color: #9DD2EA;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+/*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    
+}
+#scorebox {
+background-color: #F1FF92;
+    color: #888E5F;
+    padding: 11px;
+    float: right;
+    box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+}
+#lives{
+    height: 40px;
+    background-color: #F1FF92 ;
+    box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+    float: left;
+    width: 70px
+}
+#clear{
+    clear: both;
+}
+#correct {
+    background-color:#42e252;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left:250px;
+    top: 23px;
+    display: none;
+    
+}
+
+#tryagain {
+     background-color:#de401a;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left:250px;
+    top: 23px;
+    display: none;
+}
+
+
+
+#question {
+    
+    height: 400px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    -moz-box-shadow: 0px 4px #535aa8;
+    -webkit-box-shadow: 0px 4px #535aa8;
+    
+    
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#instructions {
+    
+    height:50px;
+    background-color: #9DA0EA;
+    box-shadow: 2px 4px #535aa8;
+    margin:10px auto;
+    font-family: cursive,sans-serif;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+#fruit1{
+    
+   position: absolute;
+    display: none;
+}
+
+#fruit2{
+    
+   position: absolute;
+       display: none;
+}
+
+#fruit4{
+    
+   position: absolute;
+    display: none;
+}
+
+#fruit3{
+    
+   position: absolute;
+    display: none;
+}
+
+#fruit6{
+    
+   position: absolute;
+    display: none;
+}
+
+
+#fruit5{
+    
+   position: absolute;
+    display: none;
+}
+
+#lives{
+    
+
+/*    visibility: hidden;*/
+   /* display: none;*/
+}
+
+
+
+#choices {
+    width: 450px;
+    height: 100px;
+    margin:5px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 85px;
+    height: 85px;
+    background-color: aliceblue;
+    color: #9DA0EA;
+    font-size: 30px;
+    text-align: center;
+    line-height: 85px;
+    border-radius: 100px;
+    margin: 10px 0px; 
+    cursor: pointer;
+    box-shadow: 0px 4px;
+    position: relative;
+    
+}
+
+.box:hover, #startreset:hover{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 4px #6b54d3;
+    -moz-box-shadow: 0px 4px #6b54d3;
+   -webkit-box-shadow: 0px 4px #6b54d3;
+}
+
+.box:active, #startreset:active{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 0px #6b54d3; 
+    -moz-box-shadow: 0px 0px #6b54d3; 
+    -webkit-box-shadow: 0px 0px #6b54d3; 
+    top: 4px;
+}
+
+#startreset{
+    width: 100px;
+    background-color: rgba( 255, 180, 5, 0.963 );
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 8px auto 0px auto; 
+    cursor: pointer;
+    box-shadow: 2px 4px rgba( 0,0 ,0 , 0.3 ) ;
+    position: relative;
+}
+#timeremaining {
+    width: 170px;
+    background-color:rgba(181, 235, 36, 0.8);
+    padding: 4px;
+    position: absolute;
+    right: 20px;
+    bottom:15px;
+    box-shadow:2px 4px rgba( 105, 211, 99, 0.652 ) ;
+}
+
+#gameover{
+    height: 200px;
+    
+    background: linear-gradient(#F3CA6B, #F3706C);
+    background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+    background: -o-linear-gradient(#F3CA6B, #F3706C);
+    background: -moz-linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top:150px;
+    
+    z-index: 2;
+    
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

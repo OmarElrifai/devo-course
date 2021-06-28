@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <meta charset="utf-8"> 
+   <title>Amazon</title>
+   <link rel="stylesheet" href="Amazon.css">
+    </head>
+
+<body>
+    <div id="container1">
+    <div id="container2">
+    
+        
+    <div id="header">
+    <img src="images/amazon.PNG">
+    <h1>Select a shipping address</h1>    
+    <p1>Please enter a shipping address for this order. Please also indicate whether your billing address is the same as the shipping address entered. When finished, click the "Continue" button.  Or, if you're sending items to more than one address, click the "Add another address" button to enter additional addresses.</p1>    
+    </div>   
+    <form method="get" id="info">
+    
+        
+     <h2>Add a new address</h2> 
+    
+    <label for="Country/Region" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Country/Region</label>
+    <select id="Country/Region" name="Country/Region" style="margin:5px 0px; padding: 5px">
+    
+    <option value="United States">United States</option>
+    <option value="Egypt">Egypt</option>  
+    <option value="Turkey">Turkey</option>  
+    <option value="Canada">Canada</option>  
+    <option value="United Kingdom">United Kingdom</option>  
+    <option value="Japan">Japan</option>  
+    <option value="Russia">Russia</option>  
+    <option value="Brazil">Brazil</option>  
+    <option value="Tunisia">Tunisia</option>      
+    
+    </select>    
+    
+    <label for="Full name" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Full name (First and Last name)</label>
+    <input type="text" id="Full name" name="Full name" placeholder="Name" style="margin:5px 0px; padding: 5px;">  
+    
+    <label for="Address line 1" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Address line 1</label>
+    <input type="text" id="Address line 1" name="Address line 1" placeholder="Street address, P.O.box, company name, c/o" style="margin:5px 0px; padding: 5px">  
+        
+    <label for="Address line 2" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Address line 2</label>
+    <input type="text" id="Address line 2" name="Address line 2" placeholder="Apartment, suite, unit, building, floor, etc." style="margin:5px 0px; padding: 5px">   
+    
+    <label for="City" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">City</label>
+    <input type="text" id="City" name="City" style="margin:5px 0px; padding: 5px">  
+        
+    <label for="State/Province/Region" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">State/Province/Region</label>
+    <input type="text" id="State/Province/Region" name="State/Province/Region" style="margin:5px 0px; padding: 5px">  
+        
+    <label for="Zip Code" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Zip Code</label>
+    <input type="text" id="Zip Code" name="Zip Code" style="margin:5px 0px; padding: 5px">   
+        
+    <label for="Phone number" style="font-family: sans-serif; font-size: 13px; font-weight:bold; margin-top: 2px ">Phone number</label>
+    <input type="tel" id="Phone number" name="Full name" style="margin:5px 0px; padding: 5px">  
+    
+    <p2>May be used to assist delivery</p2>  
+    <h3>Add delivery instructions (optional) </h3> 
+    <p3>Do we need additional instructions to find this<br/>address? </p3>
+     
+    <textarea id="t1" name="t1" rows="4" placeholder="Provide details such as building description, a nearby landmark, or other navigation instructions" ></textarea>    
+    <p3>Do we need a security code or a call box number <br/>to access this building? </p3> 
+        
+    <input type="text" id="security code" name="security code" placeholder="1234" style="padding: 5px; margin-top:2px; margin-bottom: 15px">
+    
+    <p3>Weekend delivery </p3>
+    <label for="Saturday" style="font-family: sans-serif; font-size: 13px; font-weight: bold; margin-top: 5px" >
+    <input id="Saturday" name="Saturday" type="checkbox"> Saturday</label>
+    
+    <label for="Sunday" style="font-family: sans-serif; font-size: 13px; font-weight: bold; ">
+    <input id="Sunday" name="Sunday" type="checkbox" > Sunday</label>
+    
+    <p4><strong>Make sure you address is correct</strong><br/> If the address contains typos or other errors, your package may be undeliverable. </p4>
+   
+    <ul>
+        <li><a href="https://www.amazon.com/gp/help/customer/display.html/ref=chk_addrpop_genhelp_sec?ie=UTF8&nodeId=3285251" target="_blank">Tips for entering addressess</a></li>
+        
+        <li><a href="https://www.amazon.com/gp/help/customer/display.html/ref=chk_addrpop_apohelp_sec?ie=UTF8&nodeId=201117610" target="_blank">APO/FPO address tips</a></li>
+        </ul>
+    
+    <input type="submit" value="Add address" style="width: 100px; padding:6px;  border-radius: 3px; background:linear-gradient(#F6DC9D ,#F0C455); border-color: #CBA957; border-width:1px; height: 30px; margin-top:15px; ">
+        </form>   
+        
+    
+     
+    </div>
+        
+    <footer id="footer">
+       <p>Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay:</p>
+        <div id="terms">
+        <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ox_shipaddress_condition_of_use?ie=UTF8&nodeId=201909000&pop-up=1" target="_blank" style="border-left: none; padding-right: 8px">Conditions of Use</a>
+        
+        <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ox_shipaddress_page_privacy?ie=UTF8&nodeId=201909010&pop-up=1" target="_blank" >Privacy Notice</a> © 1996-2020, Amazon.com, Inc.
+        
+        
+        </div>
+        </footer>
+    
+    
+    </div>
+    </body>
+
+
+</html>

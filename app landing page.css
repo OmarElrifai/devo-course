@@ -1,0 +1,55 @@
+
+#part1 {
+    
+    height:650px;
+     background-image:url(holiday%20pic.jpg);
+            background-size:100% 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    
+    align-items: center
+    
+}
+
+#i{
+   position: absolute;
+    top: 40px;
+    left: 40px;
+    
+    
+}
+ @media  and (max-width:570px){
+     #part1{
+         height: 400px;
+     }
+     #i{
+         width: 10%;
+     }
+    }  
+#intro{
+    
+    color:#ffffff;
+    margin: 50px;
+}
+
+.buttons{
+    
+    border-color: aliceblue;
+    border-radius: 10px
+    
+}
+.middle{
+    margin: 7%  0;
+}
+
+
+.grid {
+    text-align: center;
+    margin: 40px 0px; 
+}
+#footer{
+    padding: 20px;
+    margin: 0px;
+    background-color: #ede7e7;
+}

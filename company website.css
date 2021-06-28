@@ -1,0 +1,97 @@
+body{
+    background: url(images/freenaturestock-128.jpeg) bottom center fixed;
+    background-size: cover ;    
+}
+.menu{
+    color: white;
+    background-color:rgba( 15, 9, 9, 0.636 ) ;
+}
+#nav1 li{
+    margin:0px 30px ;
+}
+#nav1 li:first-child{
+    margin-left: 12px
+}
+@media screen and (max-width:990px){
+    #nav1 li{
+        margin:0;
+    }
+    #nav1 li:first-child{
+    margin-left: 0
+}
+}
+
+@media screen and (max-width:717px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:717px){
+    h1{
+        font-size: 70px;
+    }
+}
+
+h1{
+    color: white;
+    margin-top:70px ;
+    text-align: center;
+    
+    font-family:sans-serif;
+}
+#image1 {
+    height: 130px;
+   margin-top: 30px  ;
+    margin-right: 10px;
+    
+}
+
+#image2 {
+    height: 90px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+#image3 {
+    margin-bottom: 15px;
+    height: 145px;
+    
+    
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+}
+p{text-align: center;
+    color: white;
+}
+
+#par3 {
+    
+}
+
+.button1 {
+    border-radius: 10px;
+    margin-top:90px ;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    margin-top:150px;
+    height: 70px ;
+    color: rgba( 72, 80, 72, 0.636 );
+    background-color: rgba( 17, 17, 17, 0.783 );
+    padding: 10px;
+    
+}
+
+
+#par2 {
+    margin-bottom: 50px
+}
